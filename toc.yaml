@@ -1,0 +1,29 @@
+toc:
+  properties:
+    subcollection: cloud-native-journey
+    category: compute
+    audience: service
+    href: /docs/cloud-native-journey
+    path: vpc-journey
+    label: Deploying Cloud Native Apps
+
+  entries:
+    - navgroup:
+        id: learn
+        topics:
+        - cloud-native-onboarding-1-overview.md
+
+    - navgroup:
+        id: howto
+        topics:
+        - cloud-native-onboarding-2-network-flows.md
+        - cloud-native-onboarding-3-prepare-account.md
+        - cloud-native-onboarding-4-provision.md
+        - cloud-native-onboarding-5-logging.md
+        - cloud-native-onboarding-6-dns.md
+        - cloud-native-onboarding-7-services.md
+        - cloud-native-onboarding-8-lb.md
+        - cloud-native-onboarding-9-storage.md
+        - cloud-native-onboarding-10-cicd.md
+
+ 
