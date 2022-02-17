@@ -20,11 +20,11 @@ Welcome to the Deployment Journey for Cloud Native on IBM Cloud! Use the sidebar
 {: tip}
 
 ## Journey Map
-{: #vpc-overview-map}
+{: #cloud-native-overview-map}
 ![Architecture](images/overview/journey-map.png){: class="center"}
 
 ## Assumptions
-{: #vpc-overview-assumptions}
+{: #cloud-native-overview-assumptions}
 
 This deployment guide  will be assuming the following points. Please note that while your circumstance may not be exactly identical, you will still benefit from the overall journey steps and concepts covered in this guide.
 
@@ -44,7 +44,7 @@ This deployment guide  will be assuming the following points. Please note that w
 
   
 ## Understanding IBM Cloud VPC Concepts
-{: #vpc-overview-concepts}
+{: #cloud-native-overview-concepts}
 
 ![Understanding IBM Virtual Private Cloud (VPC)](https://www.youtube.com/embed/gffPD-mOBi8){: video output="iframe" data-script="none" id="youtubeplayer" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen}
 
@@ -52,9 +52,9 @@ This deployment guide  will be assuming the following points. Please note that w
 
 
 ## Next Steps
-{: #vpc-overview-next-steps}
+{: #cloud-native-overview-next-steps}
 The next step on the deployment journey is:
-* [Understanding Network Flows](/docs/vpc-journey?topic=vpc-journey-vpc-network-flows)
+* [Understanding Network Flows](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-network-flows)
 
 
 

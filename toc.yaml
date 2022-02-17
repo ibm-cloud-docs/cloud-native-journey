@@ -4,7 +4,7 @@ toc:
     category: compute
     audience: service
     href: /docs/cloud-native-journey
-    path: vpc-journey
+    path: cloud-native-journey
     label: Deploying Cloud Native Apps
 
   entries:
