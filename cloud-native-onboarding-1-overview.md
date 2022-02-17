@@ -21,6 +21,7 @@ Welcome to the Deployment Journey for Cloud Native on IBM Cloud! Use the sidebar
 
 ## Journey Map
 {: #cloud-native-overview-map}
+
 ![Architecture](images/overview/journey-map.png){: class="center"}
 
 ## Assumptions
@@ -53,6 +54,7 @@ This deployment guide  will be assuming the following points. Please note that w
 
 ## Next Steps
 {: #cloud-native-overview-next-steps}
+
 The next step on the deployment journey is:
 * [Understanding Network Flows](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-network-flows)
 
