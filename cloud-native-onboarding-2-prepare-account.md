@@ -35,6 +35,10 @@ When you assign cluster permissions, it can be hard to judge which role you need
 - [IBM Cloud IAM service access roles](https://{DomainName}/docs/containers?topic=containers-access_reference#service)
 - [Kubernetes resource permissions per RBAC role](https://{DomainName}/docs/containers?topic=containers-access_reference#rbac_ref)
 
+The following image shows the different types of permissions and roles, the actions a role can perform, and how the roles relate to each other.
+
+![user access permissions](images/prepare-account/user_access.png)
+
 Additionally, check [getting started with IAM and Virtual Private Cloud (VPC)](https://{DomainName}/docs/vpc?topic=vpc-iam-getting-started)
 
 ## Next Steps
