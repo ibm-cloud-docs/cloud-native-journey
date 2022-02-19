@@ -45,4 +45,4 @@ Additionally, check [getting started with IAM and Virtual Private Cloud (VPC)](h
 {: #cloud-native-prepare-account-next-steps}
 
 The next step on the deployment journey is:
-* [Prepare your IBM Cloud account](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-provision-cluster)
+* [Provision a cluster](/docs/cloud-native-journey?topic=cloud-native-journey-provision-cluster)
