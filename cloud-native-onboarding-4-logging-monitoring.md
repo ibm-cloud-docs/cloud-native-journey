@@ -27,12 +27,18 @@ Continuous monitoring and logging is the key to detecting attacks on your cluste
 
 Use the {{site.data.keyword.containerlong_notm}} observability plug-in to create a logging configuration for {{site.data.keyword.loganalysisshort_notm}} in your cluster, and use this logging configuration to automatically collect and forward pod logs to {{site.data.keyword.loganalysislong_notm}}.
 
+You can set up a logging configuration for your cluster from the console or CLI.
+{: tip}
+
 - [Forward logs to an {{site.data.keyword.loganalysislong_notm}} instance](https://{DomainName}/docs/containers?topic=containers-health#logging)
 
 ## Forward cluster and app metrics to {{site.data.keyword.monitoringlong_notm}}
 {: #cloud-native-monitoring-forward-logs}
 
 Use the {{site.data.keyword.containerlong_notm}} observability plug-in to create a monitoring configuration for {{site.data.keyword.monitoringlong_notm}} in your cluster, and use this monitoring configuration to automatically collect and forward metrics to {{site.data.keyword.monitoringlong_notm}}.
+
+You can set up a monitoring configuration for your cluster from the console or CLI.
+{: tip}
 
 - [Forward metrics to an {{site.data.keyword.monitoringlong_notm}} instance](https://{DomainName}/docs/containers?topic=containers-health-monitor#monitoring)
 

@@ -12,3 +12,8 @@ subcollection: cloud-native-journey
 
 # Provision cluster
 {: #cloud-native-provision-cluster}
+
+## Journey Map
+{: #cloud-native-provision-cluster-map}
+
+![Architecture](images/provision/journey-map.png){: class="center"}
