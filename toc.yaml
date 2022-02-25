@@ -11,16 +11,15 @@ toc:
     - navgroup:
         id: howto
         topics:
-        - topicgroup:
-          label: Kubernetes on VPC
-          topics:
-          - cloud-native-onboarding-1-architecture-concepts.md
-          - cloud-native-onboarding-2-prepare-account.md
-          - cloud-native-onboarding-3-provision-cluster.md
-          - cloud-native-onboarding-4-logging-monitoring.md
-          - cloud-native-onboarding-5-configure-dns.md
-          - cloud-native-onboarding-6-service-connectivity.md
-          - cloud-native-onboarding-7-configure-load-balancer.md
-          - cloud-native-onboarding-8-configure-persistent-storage.md
-          - cloud-native-onboarding-9-ci-cd.md
-
+          - topicgroup:
+            label: Kubernetes on VPC
+            topics:
+              - cloud-native-onboarding-1-architecture-concepts.md
+              - cloud-native-onboarding-2-prepare-account.md
+              - cloud-native-onboarding-3-provision-cluster.md
+              - cloud-native-onboarding-4-logging-monitoring.md
+              - cloud-native-onboarding-5-configure-dns.md
+              - cloud-native-onboarding-6-service-connectivity.md
+              - cloud-native-onboarding-7-configure-load-balancer.md
+              - cloud-native-onboarding-8-configure-persistent-storage.md
+              - cloud-native-onboarding-9-ci-cd.md
