@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-02-18"
+lastupdated: "2022-02-24"
 
 subcollection: cloud-native-journey
 
