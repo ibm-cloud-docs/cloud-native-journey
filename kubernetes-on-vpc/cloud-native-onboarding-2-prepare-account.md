@@ -16,7 +16,7 @@ subcollection: cloud-native-journey
 ## Journey Map
 {: #cloud-native-prepare-account-map}
 
-![Architecture](images/prepare-account/journey-map.png){: class="center"}
+![Architecture](/images/prepare-account/journey-map.png){: class="center"}
 
 ## Setup Resource Group
 {: #cloud-native-prepare-account-resource-group}
@@ -37,7 +37,7 @@ When you assign cluster permissions, it can be hard to judge which role you need
 
 The following image shows the different types of permissions and roles, the actions a role can perform, and how the roles relate to each other.
 
-![user access permissions](images/prepare-account/user_access.png)
+![user access permissions](/images/prepare-account/user_access.png)
 
 Additionally, check [getting started with IAM and Virtual Private Cloud (VPC)](https://{DomainName}/docs/vpc?topic=vpc-iam-getting-started)
 
