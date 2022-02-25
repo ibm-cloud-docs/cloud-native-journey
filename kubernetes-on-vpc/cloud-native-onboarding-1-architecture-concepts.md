@@ -22,7 +22,7 @@ Welcome to the Deployment Journey for Cloud Native on {{site.data.keyword.Bluemi
 ## Journey Map
 {: #cloud-native-overview-map}
 
-![Architecture](/images/overview/journey-map.png){: class="center"}
+![Architecture](images/overview/journey-map.png){: class="center"}
 
 ## Assumptions
 {: #cloud-native-overview-assumptions}

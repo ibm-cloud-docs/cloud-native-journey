@@ -16,7 +16,7 @@ subcollection: cloud-native-journey
 ## Journey Map
 {: #cloud-native-provision-cluster-map}
 
-![Architecture](/images/provision/journey-map.png){: class="center"}
+![Architecture](images/provision/journey-map.png){: class="center"}
 
 ## Overview
 {: #cloud-native-provision-cluster-overview}
@@ -30,14 +30,14 @@ If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://ww
 {: #cloud-native-provision-create-schematics-workspace}
 
 1. Login to {{site.data.keyword.Bluemix_notm}} and navigate to the IBM Schematics service as shown in the figure below: 
-   ![SchematicsMenuItem](/images/provision/schematics-menu-item.png)
+   ![SchematicsMenuItem](images/provision/schematics-menu-item.png)
 
-2. From the Schematics Workspace tab, choose to create a new project workspace. ![CreateWorkspace](/images/provision/schematics-create-workspace.png)
+2. From the Schematics Workspace tab, choose to create a new project workspace. ![CreateWorkspace](images/provision/schematics-create-workspace.png)
 
 3. Schematics can automatically pull terraform code from a GitHub repo. Enter `https://github.com/Cloud-Schematics/multizone-iks-on-vpc-cluster` as the repository URL (which represents the VPC architecture depicted above) and select Terraform_v1.0.
-    ![CreateWorkspace2](/images/provision/schematics-create-workspace2.png)
+    ![CreateWorkspace2](images/provision/schematics-create-workspace2.png)
 
-4. Specify the workspace details values based on your preferences. ![CreateWorkspace3](/images/provision/schematics-create-workspace3.png)
+4. Specify the workspace details values based on your preferences. ![CreateWorkspace3](images/provision/schematics-create-workspace3.png)
 
    As a best practice, do NOT use the "default" resource group.  Create a resource group for this network or project provides more flexibility. For additional details see the [Preparing Your {{site.data.keyword.Bluemix_notm}} Account](/docs/vpc-journey?topic=vpc-journey-vpc-prep-account) page of this deployment journey guide.
    {: tip}
@@ -50,7 +50,7 @@ If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://ww
 1. If not already there, navigate to the **Settings** page of your new Schematics workspace where you will see a list of variables (and their default values) which were found in the Terraform code.
 
 2. Enter a value for the {{site.data.keyword.Bluemix_notm}} API Key variable (if it exists) by clicking on the action menu. _Remember to check the `Sensitive` flag_.
-   ![WorkspaceVariables](/images/provision/schematics-workspace-variables.png)
+   ![WorkspaceVariables](images/provision/schematics-workspace-variables.png)
 
    The API key is the credential the terraform code will run under and may we associated with a userid or a serviceid. To generate an API Key, click on Manage (located in top menu bar), select IAM, and then API keys. When entering the value in Schematics, be sure to select the "Sensitive" checkbox.
    {: tip}
@@ -65,7 +65,7 @@ If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://ww
 {: #cloud-native-provision-apply-schematics}  
 
 1. Click the **Generate plan** to validate the configuration. This is similar to running `terraform plan` when using the CLI. No changes will be made nor any resources deployed. This will only perform a test run. 
-   ![GenerateWorkspace](/images/provision/schematics-workspace-generate.png)
+   ![GenerateWorkspace](images/provision/schematics-workspace-generate.png)
 
 2. If the generate action completes successfully, click on **Apply plan** button to provision this cloud native configuration.  
 

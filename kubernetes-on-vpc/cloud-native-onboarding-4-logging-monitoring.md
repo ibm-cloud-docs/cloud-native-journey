@@ -16,7 +16,7 @@ subcollection: cloud-native-journey
 ## Journey Map
 {: #cloud-native-logging-monitoring-map}
 
-![Architecture](/images/logging/journey-map.png){: class="center"}
+![Architecture](images/logging/journey-map.png){: class="center"}
 
 Set up logging and monitoring in {{site.data.keyword.containerlong_notm}} to help you troubleshoot issues and improve the health and performance of your Kubernetes clusters and apps.
 
