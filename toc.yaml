@@ -13,6 +13,7 @@ toc:
         - topicgroup:
           label: Kubernetes on VPC
           topics:
+          - cloud-native-onboarding-1-architecture-concepts.md
           - cloud-native-onboarding-2-prepare-account.md
           - cloud-native-onboarding-3-provision-cluster.md
           - cloud-native-onboarding-4-logging-monitoring.md
