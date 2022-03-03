@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-03-02"
+lastupdated: "2022-03-03"
 
 subcollection: cloud-native-journey
 
@@ -21,9 +21,9 @@ subcollection: cloud-native-journey
 ## Overview
 {: #cloud-native-provision-cluster-overview}
 
-Provisioning of a standard VPC cluster can be accomplished via the IBM Cloud Portal User Interface, IBM Cloud CLI, or via Terraform. 
+Provisioning of a standard IKS cluster on VPC can be accomplished via the IBM Cloud Portal User Interface, IBM Cloud CLI, or via Terraform. 
 
-If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://www.youtube.com/watch?v=pGLgtB193cI) showing how to use Portal UI to create a VPC may be a good first step to orient yourself around some of the concepts.  However, as you start to create multiple VPCs and want to leverage consistent repeatable patterns, you'll find Terrform automation to be more efficient.
+If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://www.youtube.com/watch?v=MPPAitYizkk) showing how to use {{site.data.keyword.Bluemix_notm}} UI to create a Kubernetes cluster may be a good first step to orient yourself around some of the concepts.  However, as you start to create multiple clusters and want to leverage consistent repeatable patterns, you'll find Terraform automation to be more efficient.
 {: tip}
 
 ### Import IKS-VPC Terraform Code to Schematics
@@ -69,6 +69,12 @@ If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://ww
 
 2. If the generate action completes successfully, click on **Apply plan** button to provision this cloud native configuration.  
 
-3. Once the apply plan completes successfully, click on the menu icon (located in the top left corner) and navigate to the VPC Infrastructure page to browse your newly created VPC instance! 
+3. Once the apply plan completes successfully, click on the menu icon (located in the top left corner) and navigate to the Kubernetes page to browse your newly created cluster! 
 
 4. (Optional) If you would like to delete/destroy the VPC resources which was created, go back to the Schematics Workspace and select Actions > Destroy Resources. 
+
+## Next Steps
+{: #cloud-native-provision-cluster-next-steps}
+
+The next step on the deployment journey is:
+* [Provision a cluster](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-logging-monitoring)

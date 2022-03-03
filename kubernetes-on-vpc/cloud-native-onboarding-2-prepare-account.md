@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-02-24"
+lastupdated: "2022-03-03"
 
 subcollection: cloud-native-journey
 
@@ -45,4 +45,4 @@ Additionally, check [getting started with IAM and Virtual Private Cloud (VPC)](h
 {: #cloud-native-prepare-account-next-steps}
 
 The next step on the deployment journey is:
-* [Provision a cluster](/docs/cloud-native-journey?topic=cloud-native-journey-provision-cluster)
+* [Provision a cluster](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-provision-cluster)
