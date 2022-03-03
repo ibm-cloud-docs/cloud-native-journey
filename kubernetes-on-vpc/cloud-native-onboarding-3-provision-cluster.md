@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-02-23"
+lastupdated: "2022-03-02"
 
 subcollection: cloud-native-journey
 
@@ -34,7 +34,7 @@ If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://ww
 
 2. From the Schematics Workspace tab, choose to create a new project workspace. ![CreateWorkspace](images/provision/schematics-create-workspace.png)
 
-3. Schematics can automatically pull terraform code from a GitHub repo. Enter `https://github.com/Cloud-Schematics/multizone-iks-on-vpc-cluster` as the repository URL (which represents the VPC architecture depicted above) and select Terraform_v1.0.
+3. Schematics can automatically pull terraform code from a GitHub repo. Enter `https://github.com/IBM-Cloud/cloud-journey/tree/main/IKS` as the repository URL (which represents the VPC architecture depicted above) and select **terraform_v1.0**.
     ![CreateWorkspace2](images/provision/schematics-create-workspace2.png)
 
 4. Specify the workspace details values based on your preferences. ![CreateWorkspace3](images/provision/schematics-create-workspace3.png)
@@ -42,20 +42,20 @@ If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://ww
    As a best practice, do NOT use the "default" resource group.  Create a resource group for this network or project provides more flexibility. For additional details see the [Preparing Your {{site.data.keyword.Bluemix_notm}} Account](/docs/vpc-journey?topic=vpc-journey-vpc-prep-account) page of this deployment journey guide.
    {: tip}
 
-5. Validate the information entered and click **Create** to retrieve the Terraform code and create the Schematics workspace.
+5. Validate the information entered and click on **Create** to retrieve the Terraform code and create the Schematics workspace.
 
 ### Configure Terraform Variables
 {: #cloud-native-provision-config-schematics}  
 
 1. If not already there, navigate to the **Settings** page of your new Schematics workspace where you will see a list of variables (and their default values) which were found in the Terraform code.
 
-2. Enter a value for the {{site.data.keyword.Bluemix_notm}} API Key variable (if it exists) by clicking on the action menu. _Remember to check the `Sensitive` flag_.
+2. Enter a value for the {{site.data.keyword.Bluemix_notm}} API Key variable (if it exists) by clicking on the action menu.
    ![WorkspaceVariables](images/provision/schematics-workspace-variables.png)
 
-   The API key is the credential the terraform code will run under and may we associated with a userid or a serviceid. To generate an API Key, click on Manage (located in top menu bar), select IAM, and then API keys. When entering the value in Schematics, be sure to select the "Sensitive" checkbox.
+   The API key is the credential the terraform code will run under and may we associated with a userid or a serviceid. To generate an API Key, click on Manage (located in top menu bar), select IAM, and then API keys. When entering the value in Schematics, be sure to select the `Sensitive` checkbox.
    {: tip}
 
-3. Inspect the remaining variables and update the values as needed. For example, you will most likely need to update the resource group name.
+3. Inspect the remaining variables and update the values for `vpc-name`, `resource_group`, and other variables as needed. For example, you will most likely need to update the resource group name.
 
    Refer to the readme which accompanies the Terraform code for descriptions on variable names and their usage. In this example, you will see variables for configuring the subnet tiers, whether or not public gateways for a zone are enabled, subnet acl rules, etc.
    {: tip}
