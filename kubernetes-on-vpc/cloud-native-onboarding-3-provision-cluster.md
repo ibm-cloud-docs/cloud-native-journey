@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-03-03"
+lastupdated: "2022-03-08"
 
 subcollection: cloud-native-journey
 
@@ -71,7 +71,7 @@ If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://ww
 
 3. Once the apply plan completes successfully, click on the menu icon (located in the top left corner) and navigate to the Kubernetes page to browse your newly created cluster! 
 
-4. (Optional) If you would like to delete/destroy the VPC resources which was created, go back to the Schematics Workspace and select Actions > Destroy Resources. 
+4. (Optional) If you would like to delete/destroy the resources which was created, go back to the Schematics Workspace and select Actions > Destroy Resources. 
 
 ## Next Steps
 {: #cloud-native-provision-cluster-next-steps}
