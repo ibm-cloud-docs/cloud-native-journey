@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-02-18"
+lastupdated: "2022-03-09"
 
 subcollection: cloud-native-journey
 
@@ -12,3 +12,9 @@ subcollection: cloud-native-journey
 
 # Configure DNS
 {: #cloud-native-configure-dns}
+
+## Journey Map
+{: #cloud-native-configure-dns-map}
+
+![Architecture](images/dns/journey-map.png){: class="center"}
+

@@ -57,5 +57,3 @@ To add a continuous delivery pipeline to your cluster,
   - Razee
 
 - For a deep dive into the benefits and specifics of automating continuous integration and delivery, check out [Automate continuous integration](https://www.ibm.com/garage/method/practices/code/practice_continuous_integration) and [Build and deploy by using continuous delivery](https://www.ibm.com/garage/method/practices/deliver/practice_continuous_delivery) in the IBM Garage Methodology documentation.
-
-

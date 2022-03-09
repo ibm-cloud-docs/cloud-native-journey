@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-02-18"
+lastupdated: "2022-03-09"
 
 subcollection: cloud-native-journey
 
@@ -12,3 +12,8 @@ subcollection: cloud-native-journey
 
 # Configure persistent storage
 {: #cloud-native-persistent-storage}
+
+## Journey Map
+{: #cloud-native-persistent-storage-map}
+
+![Architecture](images/storage/journey-map.png){: class="center"}
