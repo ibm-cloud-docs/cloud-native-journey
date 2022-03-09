@@ -23,3 +23,7 @@ toc:
               - kubernetes-on-vpc/cloud-native-onboarding-7-configure-load-balancer.md
               - kubernetes-on-vpc/cloud-native-onboarding-8-configure-persistent-storage.md
               - kubernetes-on-vpc/cloud-native-onboarding-9-ci-cd.md
+        - topicgroup:
+            label: references
+            topics:
+              - kubernetes-on-vpc/cloud-native-onboarding-1-architecture-concepts.md
