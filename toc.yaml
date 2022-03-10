@@ -9,7 +9,7 @@ toc:
 
   entries:
     - navgroup:
-        id: howto
+        id: learn
         topics:
         - topicgroup:
             label: Kubernetes on VPC
