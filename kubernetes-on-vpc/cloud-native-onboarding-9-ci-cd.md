@@ -13,7 +13,9 @@ subcollection: cloud-native-journey
 # Configure CI/CD services for app deployment
 {: #cloud-native-ci-cd}
 
-Continuous integration (CI) can help you detect errors early, ensure early system integration, and improve collaboration in your development process. Continuous delivery (CD) is a practice by which you build and deploy your software so that it can be released into production at any time. By automating your continuous integration and delivery processes through setting up CI/CD pipelines, you can achieve repeatability in code releases and greater predictability in delivery schedules.
+Continuous integration (CI) can help you detect errors early, ensure early system integration, and improve collaboration in your development process.
+
+Continuous delivery (CD) is a practice by which you build and deploy your software so that it can be released into production at any time. By automating your continuous integration and delivery processes through setting up CI/CD pipelines, you can achieve repeatability in code releases and greater predictability in delivery schedules.
 
 ## Journey Map
 {: #cloud-native-ci-cd-map}
@@ -36,7 +38,7 @@ To add a continuous delivery pipeline to your cluster,
 5. Follow the directions in the console to configure your toolchain. Make sure to include the name of your cluster in your toolchain name so that you can easily find the toolchain that is associated with your cluster later. For more information, see [Creating toolchains](/docs/ContinuousDelivery?topic=ContinuousDelivery-toolchains_getting_started).
 6. Select **Delivery Pipeline** to review the stages of your continuous integration and continuous delivery pipeline. After you create your toolchain, your pipeline is automatically kicked off and runs through the stages that you configured. Make sure that your stages run successfully and correct any errors.
 7. Modify your toolchain. You can add more tools to your toolchain or change the stages of your delivery pipeline.
-    1. From the [Kubernetes clusters console](https://{DomainName}/kubernetes/clusters), select the cluster for which you want to set up a continuous delivery pipeline.
+    1. From the [Kubernetes cluster console](https://{DomainName}/kubernetes/clusters), select the cluster for which you want to set up a continuous delivery pipeline.
     2. Select the **DevOps** tab.
     3. Select the toolchain that you want to modify.
 
@@ -57,3 +59,11 @@ To add a continuous delivery pipeline to your cluster,
   - Razee
 
 - For a deep dive into the benefits and specifics of automating continuous integration and delivery, check out [Automate continuous integration](https://www.ibm.com/garage/method/practices/code/practice_continuous_integration) and [Build and deploy by using continuous delivery](https://www.ibm.com/garage/method/practices/deliver/practice_continuous_delivery) in the IBM Garage Methodology documentation.
+
+## What's next
+{: #cloud-native-ci-cd-what-next}
+
+- Understanding [high availability and disaster recovery for {{site.data.keyword.containerfull_notm}}](https://{DomainName}/docs/containers?topic=containers-ha)
+- [Enhance your cluster with extra and open-source capabilities](https://{DomainName}/docs/containers?topic=containers-managed-addons)
+- [Adding complex Kubernetes apps to your cluster by using Helm charts](https://{DomainName}/docs/containers?topic=containers-helm)
+- [Planning app deployments for high availability](https://{DomainName}/docs/containers?topic=containers-plan_deploy)

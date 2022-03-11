@@ -60,7 +60,6 @@ If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://ww
    Refer to the readme which accompanies the Terraform code for descriptions on variable names and their usage. In this example, you will see variables for configuring the subnet tiers, whether or not public gateways for a zone are enabled, subnet acl rules, etc.
    {: tip}
 
-
 ### Apply IKS-VPC Terraform Code
 {: #cloud-native-provision-apply-schematics}  
 
@@ -77,4 +76,4 @@ If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://ww
 {: #cloud-native-provision-cluster-next-steps}
 
 The next step on the deployment journey is:
-* [Provision a cluster](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-logging-monitoring)
+* [Logging and monitoring](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-logging-monitoring)

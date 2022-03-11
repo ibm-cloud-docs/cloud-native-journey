@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-03-03"
+lastupdated: "2022-03-09"
 
 subcollection: cloud-native-journey
 
@@ -39,7 +39,12 @@ The following image shows the different types of permissions and roles, the acti
 
 ![user access permissions](images/prepare-account/user_access.png)
 
-Additionally, check [getting started with IAM and Virtual Private Cloud (VPC)](https://{DomainName}/docs/vpc?topic=vpc-iam-getting-started)
+Additionally, check [getting started with IAM and Virtual Private Cloud (VPC)](https://{DomainName}/docs/vpc?topic=vpc-iam-getting-started).
+
+## Setup the CLI
+
+You can [setup and use the {{site.data.keyword.cloud_notm}} Kubernetes Service CLI](https://{DomainName}/docs/containers?topic=containers-cs_cli_install#cs_cli_install_steps) to create and manage your Kubernetes clusters.
+
 
 ## Next Steps
 {: #cloud-native-prepare-account-next-steps}
