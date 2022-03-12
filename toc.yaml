@@ -1,0 +1,25 @@
+toc:
+  properties:
+    subcollection: cloud-native-journey
+    category: compute
+    audience: service
+    href: /docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-overview
+    path: cloud-native-journey
+    label: Deploying Cloud Native Apps
+
+  entries:
+    - navgroup:
+        id: learn
+        topics:
+        - topicgroup:
+            label: Kubernetes on VPC
+            topics:
+              - kubernetes-on-vpc/cloud-native-onboarding-1-architecture-concepts.md
+              - kubernetes-on-vpc/cloud-native-onboarding-2-prepare-account.md
+              - kubernetes-on-vpc/cloud-native-onboarding-3-provision-cluster.md
+              - kubernetes-on-vpc/cloud-native-onboarding-4-logging-monitoring.md
+              #- kubernetes-on-vpc/cloud-native-onboarding-5-configure-dns.md
+              #- kubernetes-on-vpc/cloud-native-onboarding-6-service-connectivity.md
+              #- kubernetes-on-vpc/cloud-native-onboarding-7-configure-load-balancer.md
+              #- kubernetes-on-vpc/cloud-native-onboarding-8-configure-persistent-storage.md
+              - kubernetes-on-vpc/cloud-native-onboarding-9-ci-cd.md
