@@ -18,8 +18,8 @@ toc:
               - kubernetes-on-vpc/cloud-native-onboarding-2-prepare-account.md
               - kubernetes-on-vpc/cloud-native-onboarding-3-provision-cluster.md
               - kubernetes-on-vpc/cloud-native-onboarding-4-logging-monitoring.md
-              #- kubernetes-on-vpc/cloud-native-onboarding-5-configure-dns.md
-              #- kubernetes-on-vpc/cloud-native-onboarding-6-service-connectivity.md
-              #- kubernetes-on-vpc/cloud-native-onboarding-7-configure-load-balancer.md
-              #- kubernetes-on-vpc/cloud-native-onboarding-8-configure-persistent-storage.md
+              - kubernetes-on-vpc/cloud-native-onboarding-5-configure-dns.md
+              - kubernetes-on-vpc/cloud-native-onboarding-6-service-connectivity.md
+              - kubernetes-on-vpc/cloud-native-onboarding-7-configure-load-balancer.md
+              - kubernetes-on-vpc/cloud-native-onboarding-8-configure-persistent-storage.md
               - kubernetes-on-vpc/cloud-native-onboarding-9-ci-cd.md
