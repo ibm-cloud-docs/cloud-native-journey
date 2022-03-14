@@ -23,3 +23,19 @@ toc:
               #- kubernetes-on-vpc/cloud-native-onboarding-7-configure-load-balancer.md
               #- kubernetes-on-vpc/cloud-native-onboarding-8-configure-persistent-storage.md
               - kubernetes-on-vpc/cloud-native-onboarding-9-ci-cd.md
+        - topicgroup:
+            label: RedHat OpenShift on VPC
+            topics:
+              - roks-on-vpc/cloud-native-roks-onboarding-1-architecture-concepts.md
+              - roks-on-vpc/cloud-native-roks-onboarding-2-prepare-account.md
+              - roks-on-vpc/cloud-native-roks-onboarding-3-provision-cluster.md
+              - roks-on-vpc/cloud-native-roks-onboarding-4-logging-monitoring.md
+              - roks-on-vpc/cloud-native-roks-onboarding-5-configure-dns.md
+              - roks-on-vpc/cloud-native-roks-onboarding-6-service-connectivity.md
+              - roks-on-vpc/cloud-native-roks-onboarding-7-configure-load-balancer.md
+              - roks-on-vpc/cloud-native-roks-onboarding-8-configure-persistent-storage.md
+              - roks-on-vpc/cloud-native-roks-onboarding-9-ci-cd.md
+
+
+ 
+
