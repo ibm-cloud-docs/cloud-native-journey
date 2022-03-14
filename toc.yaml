@@ -3,14 +3,15 @@ toc:
     subcollection: cloud-native-journey
     category: compute
     audience: service
-    href: /docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-overview
+    href: /docs/cloud-native-journey
     path: cloud-native-journey
     label: Deploying Cloud Native Apps
 
   entries:
     - navgroup:
-        id: learn
+        id: howto
         topics:
+
         - topicgroup:
             label: Kubernetes on VPC
             topics:
@@ -23,6 +24,7 @@ toc:
               #- kubernetes-on-vpc/cloud-native-onboarding-7-configure-load-balancer.md
               #- kubernetes-on-vpc/cloud-native-onboarding-8-configure-persistent-storage.md
               - kubernetes-on-vpc/cloud-native-onboarding-9-ci-cd.md
+
         - topicgroup:
             label: RedHat OpenShift on VPC
             topics:

@@ -19,4 +19,4 @@ journey
     section failures
       Use VS Code for merge conflicts: 3 : Me
 ```-->
-![Process](kubernetes-on-vpc/images/process.png)
+![Process](images/process.png)
