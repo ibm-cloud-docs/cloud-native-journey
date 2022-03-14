@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-02-21"
+lastupdated: "2022-03-14"
 
 subcollection: cloud-native-journey
 
@@ -48,7 +48,7 @@ You can set up a monitoring configuration for your cluster from the console or C
 To forward audit logs to {{site.data.keyword.loganalysislong_notm}}, you can [create a Kubernetes audit system by using the provided image and deployment](https://{DomainName}/docs/containers?topic=containers-health-audit#audit-api-server-la).
 
 ## Next Steps
-{: #cloud-native-prepare-account-next-steps}
+{: #cloud-native-logging-monitoring-next-steps}
 
 The next step on the deployment journey is:
-* [Configure DNS](/docs/cloud-native-journey?topic=cloud-native-journey-configure-dns)
+* [Configure DNS](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-configure-dns)

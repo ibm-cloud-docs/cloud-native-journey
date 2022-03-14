@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-03-09"
+lastupdated: "2022-03-14"
 
 subcollection: cloud-native-journey
 
@@ -44,5 +44,9 @@ The [VPC Onboarding Journey](/docs/vpc-journey) contains information on VPC Netw
 
 ![Architecture](images/dns/dns2.png){: class="center"}
 
+## Next Steps
+{: #cloud-native-configure-dns-next-steps}
 
+The next step on the deployment journey is:
+* [Connectivity to services](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-service-connectivity)
 
