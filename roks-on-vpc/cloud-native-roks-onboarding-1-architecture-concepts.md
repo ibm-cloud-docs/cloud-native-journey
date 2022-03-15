@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-03-03"
+lastupdated: "2022-03-15"
 
 subcollection: cloud-native-journey
 
@@ -13,8 +13,8 @@ subcollection: cloud-native-journey
 # Deployment Journey Overview
 {: #cloud-native-roks-overview}
 
-{{site.data.keyword.containerlong_notm}}(IKS) is a managed offering to create your own Kubernetes cluster of compute hosts to deploy and manage containerized apps on {{site.data.keyword.Bluemix_notm}}. As a certified Kubernetes provider, {{site.data.keyword.containerlong_notm}} provides intelligent scheduling, self-healing, horizontal scaling, service discovery and load balancing, automated rollouts and rollbacks, and secret and configuration management for your apps. Combined with an intuitive user experience, built-in security and isolation, and advanced tools to secure, manage, and monitor your cluster workloads, you can rapidly deliver highly available and secure containerized apps in the public cloud.
-{: shortdesc}
+{{site.data.keyword.openshiftlong_notm}} is a managed offering to create your own {{site.data.keyword.redhat_openshift_notm}} cluster of compute hosts to deploy and manage containerized apps on {{site.data.keyword.cloud_notm}}. {{site.data.keyword.openshiftlong_notm}} provides intelligent scheduling, self-healing, horizontal scaling, service discovery and load balancing, automated rollouts and rollbacks, and secret and configuration management for your apps. Combined with an intuitive user experience, built-in security and isolation, and advanced tools to secure, manage, and monitor your cluster workloads, you can rapidly deliver highly available and secure containerized apps in the public cloud.
+
 
 Welcome to the Deployment Journey for Cloud Native on {{site.data.keyword.Bluemix_notm}}! Use the sidebar on the left to navigate between the journey points.
 {: tip}
@@ -40,17 +40,17 @@ This deployment guide will be assuming the following points. Please note that wh
   * Worker communication to other services or networks: Allow your worker nodes to securely communicate with other {{site.data.keyword.cloud_notm}} services, such as {{site.data.keyword.registrylong}}, to on-premises networks, to other VPCs, or to classic infrastructure resources.
   * External communication to apps that run on worker nodes: Allow public or private requests into the cluster as well as requests out of the cluster to a public endpoint.
 
-- Understanding of [{{site.data.keyword.containerlong_notm}}](https://{DomainName}/docs/containers?topic=containers-iks-overview#service-concepts)
+- Understanding of [{{site.data.keyword.openshiftlong_notm}}](https://{DomainName}/docs/openshift?topic=openshift-roks-overview#service-concepts)
 
-- Components that are set up in an IBM Cloud Kubernetes Service [VPC cluster architecture](https://{DomainName}/docs/containers?topic=containers-service-arch#architecture_vpc)
+- Components that are set up in a {{site.data.keyword.openshiftlong_notm}} [VPC cluster architecture](https://{DomainName}/docs/openshift?topic=openshift-service-architecture#service-arch-vpc-4)
 
-  ![IKS on VPC](images/overview/cs_org_ov_vpc.png)
+  ![IKS on VPC](images/overview/arch_roks_vpc.svg)
 
 ## Next Steps
 {: #cloud-native-roks-overview-next-steps}
 
 The next step on the deployment journey is:
-* [Prepare your {{site.data.keyword.Bluemix_notm}} account](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-prepare-account)
+* [Prepare your {{site.data.keyword.Bluemix_notm}} account](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-roks-prepare-account)
 
 
 

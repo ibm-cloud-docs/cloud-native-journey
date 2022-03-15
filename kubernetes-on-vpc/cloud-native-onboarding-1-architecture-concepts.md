@@ -42,7 +42,7 @@ This deployment guide will be assuming the following points. Please note that wh
 
 - Understanding of [{{site.data.keyword.containerlong_notm}}](https://{DomainName}/docs/containers?topic=containers-iks-overview#service-concepts)
 
-- Components that are set up in an IBM Cloud Kubernetes Service [VPC cluster architecture](https://{DomainName}/docs/containers?topic=containers-service-arch#architecture_vpc)
+- Components that are set up in an {{site.data.keyword.containerlong_notm}} [VPC cluster architecture](https://{DomainName}/docs/containers?topic=containers-service-arch#architecture_vpc)
 
   ![IKS on VPC](images/overview/cs_org_ov_vpc.png)
 

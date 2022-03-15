@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-03-09"
+lastupdated: "2022-03-15"
 
 subcollection: cloud-native-journey
 
@@ -33,7 +33,7 @@ When you assign cluster permissions, it can be hard to judge which role you need
 - [Permissions to create a cluster](https://{DomainName}/docs/containers?topic=containers-access_reference#cluster_create_permissions)
 - [IBM Cloud IAM platform access roles](https://{DomainName}/docs/containers?topic=containers-access_reference#iam_platform)
 - [IBM Cloud IAM service access roles](https://{DomainName}/docs/containers?topic=containers-access_reference#service)
-- [Kubernetes resource permissions per RBAC role](https://{DomainName}/docs/containers?topic=containers-access_reference#rbac_ref)
+- [Kubernetes resource permissions per RBAC role](https://{DomainName}/docs/openshift?topic=openshift-access_reference&interface=ui#rbac_ref)
 
 The following image shows the different types of permissions and roles, the actions a role can perform, and how the roles relate to each other.
 
@@ -41,13 +41,9 @@ The following image shows the different types of permissions and roles, the acti
 
 Additionally, check [getting started with IAM and Virtual Private Cloud (VPC)](https://{DomainName}/docs/vpc?topic=vpc-iam-getting-started).
 
-## Setup the CLI
-
-You can [setup and use the {{site.data.keyword.cloud_notm}} Kubernetes Service CLI](https://{DomainName}/docs/containers?topic=containers-cs_cli_install#cs_cli_install_steps) to create and manage your Kubernetes clusters.
-
 
 ## Next Steps
 {: #cloud-native-roks-prepare-account-next-steps}
 
 The next step on the deployment journey is:
-* [Provision a cluster](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-provision-cluster)
+* [Provision a cluster](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-roks-provision-cluster)

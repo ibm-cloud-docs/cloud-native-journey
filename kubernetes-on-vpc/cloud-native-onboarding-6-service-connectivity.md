@@ -25,8 +25,6 @@ subcollection: cloud-native-journey
 
 In a typical deployment, your application will leverage one or more IBM Cloud services (i.e. PostgreSQL, Redis, Cloud Object Storage, Logging, etc.). In this section of the journey, we will cover connecting to these services and securing those connections.
 
-
-
 ## Public vs Private Endpoints 
 {: #cloud-native-service-connectivity-endpoints}
 
@@ -34,9 +32,6 @@ When creating/configuring a cloud service, you will see two types of connection 
 
 
 ![Architecture](images/connectivity/pub-priv-endpoints.png){: class="center"}
-
-
-
 
 
 ## Allowlisting via Cloud Service Endpoints (CSEs) 

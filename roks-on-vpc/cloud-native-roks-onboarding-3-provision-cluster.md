@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-03-08"
+lastupdated: "2022-03-15"
 
 subcollection: cloud-native-journey
 
@@ -21,12 +21,12 @@ subcollection: cloud-native-journey
 ## Overview
 {: #cloud-native-roks-provision-cluster-overview}
 
-Provisioning of a standard IKS cluster on VPC can be accomplished via the IBM Cloud Portal User Interface, IBM Cloud CLI, or via Terraform. 
+Provisioning of a standard ROKS cluster on VPC can be accomplished via the IBM Cloud Portal User Interface, IBM Cloud CLI, or via Terraform. 
 
 If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://www.youtube.com/watch?v=MPPAitYizkk) showing how to use {{site.data.keyword.Bluemix_notm}} UI to create a Kubernetes cluster may be a good first step to orient yourself around some of the concepts.  However, as you start to create multiple clusters and want to leverage consistent repeatable patterns, you'll find Terraform automation to be more efficient.
 {: tip}
 
-### Import IKS-VPC Terraform Code to Schematics
+### Import ROKS-VPC Terraform Code to Schematics
 {: #cloud-native-roks-provision-create-schematics-workspace}
 
 1. Login to {{site.data.keyword.Bluemix_notm}} and navigate to the IBM Schematics service as shown in the figure below: 
@@ -34,7 +34,7 @@ If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://ww
 
 2. From the Schematics Workspace tab, choose to create a new project workspace. ![CreateWorkspace](images/provision/schematics-create-workspace.png)
 
-3. Schematics can automatically pull terraform code from a GitHub repo. Enter `https://github.com/IBM-Cloud/cloud-journey/tree/main/IKS` as the repository URL (which represents the VPC architecture depicted above) and select **terraform_v1.0**.
+3. Schematics can automatically pull terraform code from a GitHub repo. Enter `https://github.com/IBM-Cloud/cloud-journey/tree/main/ROKS` as the repository URL (which represents the VPC architecture depicted above) and select **terraform_v1.0**.
     ![CreateWorkspace2](images/provision/schematics-create-workspace2.png)
 
 4. Specify the workspace details values based on your preferences. ![CreateWorkspace3](images/provision/schematics-create-workspace3.png)
@@ -60,7 +60,7 @@ If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://ww
    Refer to the readme which accompanies the Terraform code for descriptions on variable names and their usage. In this example, you will see variables for configuring the subnet tiers, whether or not public gateways for a zone are enabled, subnet acl rules, etc.
    {: tip}
 
-### Apply IKS-VPC Terraform Code
+### Apply ROKS-VPC Terraform Code
 {: #cloud-native-roks-provision-apply-schematics}  
 
 1. Click the **Generate plan** to validate the configuration. This is similar to running `terraform plan` when using the CLI. No changes will be made nor any resources deployed. This will only perform a test run. 
@@ -76,4 +76,4 @@ If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://ww
 {: #cloud-native-roks-provision-cluster-next-steps}
 
 The next step on the deployment journey is:
-* [Logging and monitoring](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-logging-monitoring)
+* [Logging and monitoring](/docs/cloud-native-journey?topic=cloud-native-journey-cloud-native-roks-logging-monitoring)
