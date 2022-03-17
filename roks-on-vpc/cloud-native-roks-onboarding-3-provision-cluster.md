@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-03-15"
+lastupdated: "2022-03-17"
 
 subcollection: cloud-native-journey
 
@@ -55,7 +55,7 @@ If you are brand new to {{site.data.keyword.Bluemix_notm}}, a [video](https://ww
    The API key is the credential the terraform code will run under and may we associated with a userid or a serviceid. To generate an API Key, click on Manage (located in top menu bar), select IAM, and then API keys. When entering the value in Schematics, be sure to select the `Sensitive` checkbox.
    {: tip}
 
-3. Inspect the remaining variables and update the values for `vpc-name`, `resource_group`, and other variables as needed. For example, you will most likely need to update the resource group name.
+3. Inspect the remaining variables and update the values for `vpc-name`, `resource_group`, and other variables as needed.
 
    Refer to the readme which accompanies the Terraform code for descriptions on variable names and their usage. In this example, you will see variables for configuring the subnet tiers, whether or not public gateways for a zone are enabled, subnet acl rules, etc.
    {: tip}
