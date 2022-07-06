@@ -2,7 +2,7 @@
 
 copyright:
   years: 2022
-lastupdated: "2022-03-11"
+lastupdated: "2022-07-06"
 
 subcollection: cloud-native-journey
 
@@ -31,7 +31,7 @@ To add a continuous delivery pipeline to your cluster,
 2. Select the **DevOps** tab.
 3. Click **Create a toolchain**.
    
-   Review the available toolchains. IBM provides pre-defined toolchains that you can use to deploy, test, and monitor Kubernetes-native apps or Helm charts. You can expand each toolchain to find an overview of the tools that are set up for you and to find the scripts in GitHub that are used to configure the toolchain in your cluster. For more information about each toolchain, see [Toolchain templates](/docs/ContinuousDelivery?topic=ContinuousDelivery-cd_about#templates). If you know what tools you want to use, you can create your own toolchain.
+   Review the available toolchains. {{site.data.keyword.IBM_notm}} provides pre-defined toolchains that you can use to deploy, test, and monitor Kubernetes-native apps or Helm charts. You can expand each toolchain to find an overview of the tools that are set up for you and to find the scripts in GitHub that are used to configure the toolchain in your cluster. For more information about each toolchain, see [Toolchain templates](/docs/ContinuousDelivery?topic=ContinuousDelivery-cd_about#templates). If you know what tools you want to use, you can create your own toolchain.
    {: tip}
 
 4. Select the toolchain that you want to use and click **Create**.
@@ -58,7 +58,7 @@ To add a continuous delivery pipeline to your cluster,
   - Kustomize
   - Razee
 
-- For a deep dive into the benefits and specifics of automating continuous integration and delivery, check out [Automate continuous integration](https://www.ibm.com/garage/method/practices/code/practice_continuous_integration) and [Build and deploy by using continuous delivery](https://www.ibm.com/garage/method/practices/deliver/practice_continuous_delivery) in the IBM Garage Methodology documentation.
+- For a deep dive into the benefits and specifics of automating continuous integration and delivery, check out [Automate continuous integration](https://www.ibm.com/garage/method/practices/code/practice_continuous_integration) and [Build and deploy by using continuous delivery](https://www.ibm.com/garage/method/practices/deliver/practice_continuous_delivery) in the {{site.data.keyword.IBM_notm}} Garage Methodology documentation.
 
 ## What's next
 {: #cloud-native-ci-cd-what-next}

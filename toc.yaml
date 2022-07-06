@@ -36,7 +36,7 @@ toc:
               #- roks-on-vpc/cloud-native-roks-onboarding-6-service-connectivity.md
               #- roks-on-vpc/cloud-native-roks-onboarding-7-configure-load-balancer.md
               #- roks-on-vpc/cloud-native-roks-onboarding-8-configure-persistent-storage.md
-              #- roks-on-vpc/cloud-native-roks-onboarding-9-ci-cd.md
+              - roks-on-vpc/cloud-native-roks-onboarding-9-ci-cd.md
 
 
  
